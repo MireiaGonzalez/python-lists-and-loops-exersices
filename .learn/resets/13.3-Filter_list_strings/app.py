@@ -7,10 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def filter_am(name):
-    substr = "am"
-    if substr in name:
-        return name
-
-filtered_names = list(filter(filter_am, names))
-print(filtered_names)
